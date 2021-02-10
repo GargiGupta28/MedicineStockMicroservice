@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webapivaluesservice1
-        image: myautherization.azurecr.io/autherizationcrr:latest
+        image: mymedicine.azurecr.io/medicinecrr:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
